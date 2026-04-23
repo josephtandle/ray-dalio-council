@@ -11,16 +11,10 @@ Inspired by Ray Dalio's decision-making system at Bridgewater Associates.
 ## Install
 
 ```bash
-git clone https://github.com/josephtandle/ray-dalio-council && cp ray-dalio-council/dalio-council.md ~/.claude/skills/dalio-council.md && rm -rf ray-dalio-council
+mkdir -p ~/.claude/skills && curl -fsSL https://raw.githubusercontent.com/josephtandle/ray-dalio-council/main/dalio-council.md -o ~/.claude/skills/dalio-council.md
 ```
 
-Or with the install script:
-
-```bash
-git clone https://github.com/josephtandle/ray-dalio-council
-cd ray-dalio-council
-bash install.sh
-```
+One command. Downloads the skill file directly. No repo cloning, no cleanup.
 
 ---
 
